@@ -1,6 +1,0 @@
-. Create {prod-short} database:
-+
-[subs="+quotes,+attributes"]
-----
-{orch-cli} exec deploy/postgres -n {prod-namespace}  -- bash  -c "psql postgres -tAc \"CREATE DATABASE $CHE_POSTGRES_DB\""
-----
