@@ -1,6 +1,0 @@
-. Drop {prod-short} database:
-+
-[subs="+quotes,+attributes"]
-----
-{orch-cli} exec deploy/postgres -n {prod-namespace}  -- bash  -c "dropdb $CHE_POSTGRES_DB"
-----

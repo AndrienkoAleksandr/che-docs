@@ -1,6 +1,6 @@
 . Open Dashboard:
 +
-[subs="+quotes,+attributes"]
+[,bash, subs="+quotes,+attributes"]
 ----
 {prod-cli} dashboard:open -n {prod-namespace}
 ----

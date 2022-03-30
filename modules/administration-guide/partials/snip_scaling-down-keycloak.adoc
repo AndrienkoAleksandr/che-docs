@@ -1,6 +1,0 @@
-. Scale down the {identity-provider} deployment:
-+
-[subs="+quotes,+attributes"]
-----
-{orch-cli} scale deployment keycloak --replicas=0 -n {prod-namespace}
-----
